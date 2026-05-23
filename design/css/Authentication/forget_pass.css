@@ -1,0 +1,327 @@
+/* Forgot Password */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 77px 63px;
+gap: 10px;
+
+position: relative;
+width: 1440px;
+height: 990.32px;
+left: 1876px;
+top: 284px;
+
+background: #FFFFFF;
+
+
+/* Frame 478 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+
+width: 1314px;
+height: 836.32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Forgot Password Form */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 634.23px;
+height: 836.32px;
+
+border-radius: 15.5449px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 480 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 340px;
+height: 246.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 397 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 340px;
+height: 86px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Forgot Password? */
+
+width: 340px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Don’t worry! It occurs. Please enter the email address linked with your account. */
+
+width: 310px;
+height: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 479 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 340px;
+height: 55.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Input */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6.22px;
+
+width: 339.88px;
+height: 55.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 32px;
+height: 12px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12.4359px;
+line-height: 100%;
+/* or 12px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Primary text */
+color: #0C1421;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Input */
+
+width: 339.88px;
+height: 37.31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Input */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 32.81%;
+bottom: 0%;
+
+background: #F7FBFF;
+border: 0.777247px solid #D4D7E3;
+border-radius: 9.32696px;
+
+
+/* Placeholder */
+
+position: absolute;
+width: 94px;
+height: 15px;
+left: 14.02px;
+top: 29.65px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 125%;
+/* identical to box height, or 15px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+color: rgba(0, 0, 0, 0.5);
+
+
+
+/* Main Button */
+
+width: 340px;
+height: 41px;
+
+background: #006664;
+border-radius: 9.32696px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Confirm Password */
+
+position: absolute;
+width: 131px;
+height: 16px;
+left: 105px;
+top: 12.44px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15.5449px;
+line-height: 100%;
+/* identical to box height, or 16px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+
+/* Art */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 680px;
+height: 836px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Login Art  */
+
+width: 680px;
+height: 836px;
+
+background: url(.jpg);
+border-radius: 18.6539px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;

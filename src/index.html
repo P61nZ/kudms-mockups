@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KUDMS - Login</title>
+  
+  <!-- Fonts: Google Fonts (Inter for Headings, Roboto for Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+
+  <main class="login-container">
+    
+    <!-- Left Art Section (Hidden on Mobile) -->
+    <section class="login-art">
+      <img src="../design/pages/login.svg" alt="KUDMS Abstract Art">
+    </section>
+
+    <!-- Right Form Section -->
+    <section class="login-form-wrapper">
+      <div class="login-form-content">
+        
+        <!-- Header -->
+        <header class="login-header">
+          <h1>Welcome Back 👋</h1>
+          <p>Today is a new day. It's your day. You shape it. Sign in to start managing your projects.</p>
+        </header>
+
+        <!-- Form -->
+        <form class="login-form" action="#" method="POST">
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-input" placeholder="Example@email.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" class="form-input" placeholder="At least 8 characters" required>
+          </div>
+
+          <a href="#" class="forgot-password">Forgot Password?</a>
+
+          <button type="submit" class="btn-primary">Sign in</button>
+        </form>
+
+        <!-- Social Login -->
+        <div class="social-login">
+          <div class="divider">
+            <span>Or</span>
+          </div>
+
+          <!-- Since Google svg is not exported separately, we will use a generic svg icon inline or text. Let's use an inline SVG for Google logo -->
+          <button type="button" class="btn-social">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.56 12.25C22.56 11.47 22.49 10.72 22.36 10H12V14.26H17.92C17.66 15.63 16.88 16.79 15.71 17.57V20.34H19.28C21.36 18.42 22.56 15.6 22.56 12.25Z" fill="#4285F4"/>
+              <path d="M12 23C14.97 23 17.46 22.02 19.28 20.34L15.71 17.57C14.73 18.23 13.47 18.63 12 18.63C9.16 18.63 6.75 16.71 5.89 14.15H2.22V16.99C4.02 20.57 7.7 23 12 23Z" fill="#34A853"/>
+              <path d="M5.89 14.15C5.67 13.49 5.54 12.77 5.54 12C5.54 11.23 5.67 10.51 5.89 9.85V7.01H2.22C1.48 8.49 1.05 10.18 1.05 12C1.05 13.82 1.48 15.51 2.22 16.99L5.89 14.15Z" fill="#FBBC05"/>
+              <path d="M12 5.38C13.62 5.38 15.06 5.93 16.2 7.02L19.35 3.87C17.45 2.09 14.97 1 12 1C7.7 1 4.02 3.43 2.22 7.01L5.89 9.85C6.75 7.29 9.16 5.38 12 5.38Z" fill="#EA4335"/>
+            </svg>
+            Sign in with Google
+          </button>
+          
+          <!-- Commenting out Facebook as per design showing it hidden: display: none -->
+          <!--
+          <button type="button" class="btn-social">
+            Sign in with Facebook
+          </button>
+          -->
+        </div>
+
+        <div class="signup-link">
+          Don't you have an account? <a href="#">Sign up</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>

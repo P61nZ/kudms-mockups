@@ -1,0 +1,695 @@
+/* Login Page */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 77px 63px;
+gap: 10px;
+
+position: relative;
+width: 1440px;
+height: 990px;
+left: 233px;
+top: 284px;
+
+background: #FFFFFF;
+
+
+/* Frame 350 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+width: 1314px;
+height: 836.32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Login Art  */
+
+width: 679.77px;
+height: 836.32px;
+
+background: url(.jpg);
+border-radius: 18.6539px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Left side 8 Column */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 634.23px;
+height: 836.32px;
+
+border-radius: 15.5449px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Login Form */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 37.31px;
+
+width: 301.57px;
+height: 480.62px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Intro */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 21.76px;
+
+width: 301.57px;
+height: 99.51px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Welcome Back 👋 */
+
+width: 227px;
+height: 28px;
+
+font-family: 'SF Pro Rounded';
+font-style: normal;
+font-weight: 600;
+font-size: 27.9809px;
+line-height: 100%;
+/* identical to box height, or 28px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+/* Primary text */
+color: #0C1421;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Today is a new day. It's your day. You shape it. Sign in to start managing your projects. */
+
+width: 301.57px;
+height: 49.74px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 15.5449px;
+line-height: 160%;
+/* or 25px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Secondary text */
+color: #313957;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Form */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 18.65px;
+
+width: 301.57px;
+height: 219.89px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Input */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6.22px;
+
+width: 301.57px;
+height: 55.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 32px;
+height: 12px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12.4359px;
+line-height: 100%;
+/* or 12px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Primary text */
+color: #0C1421;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Input */
+
+width: 301.57px;
+height: 37.31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Input */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 32.81%;
+bottom: 0%;
+
+background: #F7FBFF;
+border: 0.777247px solid #D4D7E3;
+border-radius: 9.32696px;
+
+
+/* Placeholder */
+
+position: absolute;
+width: 119px;
+height: 12px;
+left: 12.44px;
+top: 30.65px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12.4359px;
+line-height: 100%;
+/* or 12px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+color: #8897AD;
+
+
+
+/* Input */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6.22px;
+
+width: 301.57px;
+height: 55.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 56px;
+height: 12px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12.4359px;
+line-height: 100%;
+/* or 12px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Primary text */
+color: #0C1421;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Input */
+
+width: 301.57px;
+height: 37.31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Input */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 32.81%;
+bottom: 0%;
+
+background: #F7FBFF;
+border: 0.777247px solid #D4D7E3;
+border-radius: 9.32696px;
+
+
+/* Placeholder */
+
+position: absolute;
+width: 117px;
+height: 12px;
+left: 12.44px;
+top: 30.65px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12.4359px;
+line-height: 100%;
+/* or 12px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+color: #8897AD;
+
+
+
+/* Forgot Password? */
+
+width: 102px;
+height: 12px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12.4359px;
+line-height: 100%;
+/* or 12px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+/* Link */
+color: #1E4AE9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Main Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 12.4359px 0px;
+gap: 7.77px;
+
+width: 301.57px;
+height: 40.87px;
+
+background: #006664;
+border-radius: 9.32696px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Sign in */
+
+margin: 0 auto;
+width: 48px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15.5449px;
+line-height: 100%;
+/* identical to box height, or 16px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Social Sign in  */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 18.65px;
+
+width: 301.57px;
+height: 86.62px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Or */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7.77247px 0px;
+gap: 12.44px;
+
+width: 301.57px;
+height: 27.54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 2 */
+
+width: 131.85px;
+height: 0px;
+
+border: 0.777247px solid #CFDFE2;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Or */
+
+width: 13px;
+height: 12px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12.4359px;
+line-height: 100%;
+/* or 12px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #294957;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 131.85px;
+height: 0px;
+
+border: 0.777247px solid #CFDFE2;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Social buttons columns */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12.44px;
+
+width: 301.57px;
+height: 40.42px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Social button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9.32696px 6.99522px;
+gap: 12.44px;
+
+width: 301.57px;
+height: 40.42px;
+
+background: #F3F9FA;
+border-radius: 9.32696px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Google  */
+
+width: 21.76px;
+height: 21.76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 50.99%;
+right: 0.98%;
+top: 40.99%;
+bottom: 12.07%;
+
+background: #4285F4;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.32%;
+right: 15.86%;
+top: 59.58%;
+bottom: 0%;
+
+background: #34A853;
+
+
+/* Vector */
+
+position: absolute;
+left: 1.01%;
+right: 77.07%;
+top: 27.56%;
+bottom: 27.54%;
+
+background: #FBBC04;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.32%;
+right: 15.54%;
+top: 0%;
+bottom: 59.56%;
+
+background: #EA4335;
+
+
+/* Facebook  */
+
+display: none;
+width: 21.76px;
+height: 21.76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Sign in with Facebook */
+
+width: 123.58px;
+height: 12px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12.4359px;
+line-height: 100%;
+/* or 12px */
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+/* Secondary text */
+color: #313957;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Don't you have an account? Sign up */
+
+display: none;
+width: 296.91px;
+height: 22px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13.9904px;
+line-height: 160%;
+/* or 22px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+
+/* Secondary text */
+color: #313957;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;

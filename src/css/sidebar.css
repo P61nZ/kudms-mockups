@@ -198,3 +198,55 @@
   background-color: var(--text-white, #FFFFFF);
   border-radius: 50%;
 }
+
+/* ---------------- Navbar ---------------- */
+.top-navbar {
+  height: 73px;
+  background-color: var(--bg-white, #FFFFFF);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+
+.navbar-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #006664; /* Matching the teal color from the image */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.notification-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.notification-btn svg {
+  width: 24px;
+  height: 24px;
+  fill: #303030; /* Dark gray almost black for the bell */
+}
+
+.notification-badge {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  width: 8px;
+  height: 8px;
+  background-color: #FF2727; /* Bright red dot from the image */
+  border-radius: 50%;
+  border: 1px solid var(--bg-white, #FFFFFF);
+}

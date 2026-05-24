@@ -1,0 +1,160 @@
+/* Settings Page Styles */
+
+.settings-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.settings-page-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.settings-page-header h1 {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--color-primary-dark, #005250);
+}
+
+.settings-page-header p {
+  font-size: 14px;
+  color: var(--text-muted, #64748B);
+}
+
+.settings-grid {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.settings-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.setting-card {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-white, #FFFFFF);
+  border-radius: 8px;
+  padding: 20px 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  gap: 16px;
+  border: 1px solid var(--border-color, #E2E8F0);
+}
+
+.setting-icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #E6F3F2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.setting-icon-box svg {
+  width: 24px;
+  height: 24px;
+  stroke: var(--color-primary, #4D9493);
+  fill: none;
+  stroke-width: 2;
+}
+
+.setting-card-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.setting-card-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-main, #1E293B);
+}
+
+.setting-card-info p {
+  font-size: 13px;
+  color: var(--text-muted, #64748B);
+}
+
+.setting-card .btn-outline {
+  border: 1px solid var(--border-color, #E2E8F0);
+  color: var(--color-primary-dark, #005250);
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: var(--bg-white, white);
+  cursor: pointer;
+}
+
+.setting-card .btn-outline:hover {
+  background: var(--bg-hover, #F8FAFC);
+}
+
+.help-card {
+  width: 320px;
+  background-color: #E2ECF3;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.help-icon-box {
+  width: 36px;
+  height: 36px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.help-icon-box svg {
+  width: 18px;
+  height: 18px;
+  stroke: var(--color-primary-dark, #005250);
+  fill: none;
+  stroke-width: 2;
+}
+
+.help-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-main, #1E293B);
+}
+
+.help-card p {
+  font-size: 13px;
+  color: var(--text-muted, #64748B);
+  line-height: 1.5;
+}
+
+.help-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-primary-dark, #005250);
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+.help-link svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  stroke-width: 2;
+  fill: none;
+}

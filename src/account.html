@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KUDMS - Profile</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/document.css">
+  <link rel="stylesheet" href="./css/account.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="brand-logo">
+        <h2><span class="text-kud">KUD</span><span class="text-ms">MS</span></h2>
+        <p class="brand-subtitle thai-text">ระบบจัดการเอกสาร</p>
+      </div>
+      <div class="sidebar-toggle"></div>
+    </div>
+
+    <!-- Search in Sidebar -->
+    <div class="sidebar-search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 21L16.65 16.65" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <input type="text" placeholder="Search">
+    </div>
+
+    <nav class="nav-menu">
+      <a href="index.html" class="nav-item thai-text">
+        <svg viewBox="0 0 24 24"><path d="M4 13h6V3H4v10zm0 8h6v-6H4v6zm8 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>
+        แดชบอร์ด
+      </a>
+      
+      <a href="#" class="nav-item thai-text">
+        <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+        เทมเพลต
+      </a>
+      
+      <a href="document.html" class="nav-item thai-text">
+        <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg>
+        สร้างโครงการ
+      </a>
+
+      <a href="#" class="nav-item thai-text">
+        <svg viewBox="0 0 24 24"><path d="M16 11l-4-4-4 4h3v4h-3l4 4 4-4h-3v-4h3z"/></svg>
+        กระบวนการอนุมัติโครงการ
+      </a>
+
+      <a href="#" class="nav-item thai-text">
+        <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 14h-8v-2h8v2zm0-4h-8v-2h8v2z"/></svg>
+        รายการรออนุมัติ
+      </a>
+
+      <a href="#" class="nav-item thai-text">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        ติดตามเอกสาร
+      </a>
+
+      <a href="#" class="nav-item thai-text">
+        <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/></svg>
+        รายงานสรุปโครงการ
+      </a>
+
+      <a href="#" class="nav-item thai-text">
+        <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+        จัดการสมาชิกและสิทธิ์
+      </a>
+
+      <a href="#" class="nav-item thai-text">
+        <svg viewBox="0 0 24 24"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg>
+        คู่มือการใช้งาน
+      </a>
+      
+      <div class="nav-bottom">
+        <a href="settings.html" class="nav-item active thai-text">
+          <svg viewBox="0 0 24 24"><path d="M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.06-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.73,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.06,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.43-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.49-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z"/></svg>
+          การตั้งค่า
+        </a>
+        <a href="#" class="nav-item thai-text">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg>
+          สนับสนุน
+        </a>
+      </div>
+    </nav>
+
+    <!-- User Profile Box -->
+    <div class="user-profile">
+      <div class="avatar">D</div>
+      <div class="profile-info">
+        <span class="profile-name">Test Club</span>
+        <span class="profile-email">test@compaxtech.com</span>
+      </div>
+      <div class="profile-options">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    
+    <!-- Top Header -->
+    <header class="top-header">
+      <h2 style="color: var(--color-primary-dark); font-size: 20px;" class="thai-text">โปรไฟล์</h2>
+      <button class="notification-btn">
+        <svg viewBox="0 0 24 24"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+        <div class="notification-badge"></div>
+      </button>
+    </header>
+
+    <!-- Content Container -->
+    <div class="content-container account-wrapper">
+      
+      <div class="account-grid">
+        
+        <!-- Left Column -->
+        <div class="account-left">
+          
+          <!-- Profile Main Info Card -->
+          <div class="account-card">
+            <div class="profile-main-info">
+              <div class="profile-avatar-large">
+                A
+                <div class="edit-badge">
+                  <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="profile-name-large thai-text">TestClub TestClub</h3>
+              <div class="profile-role-badge">Admin</div>
+              <div class="profile-email-large">
+                <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                test@compaxtech.com
+              </div>
+            </div>
+            <div class="profile-actions">
+              <button class="btn btn-primary btn-block thai-text">อัปโหลดรูปภาพใหม่</button>
+              <button class="btn btn-outline btn-block thai-text">ลบรูปโปรไฟล์</button>
+            </div>
+          </div>
+          
+          <!-- Recent Activity Card -->
+          <div class="account-card">
+            <div class="account-card-header thai-text">
+              <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              กิจกรรมล่าสุด
+            </div>
+            <div class="activity-list">
+              <div class="activity-item">
+                <div class="activity-left">
+                  <div class="activity-icon login">
+                    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+                      <polyline points="10 17 15 12 10 7"></polyline>
+                      <line x1="15" y1="12" x2="3" y2="12"></line>
+                    </svg>
+                  </div>
+                  <div class="activity-details">
+                    <div class="activity-title thai-text">เข้าสู่ระบบล่าสุด</div>
+                    <div class="activity-desc thai-text">Chrome ในกรุงเทพฯ</div>
+                  </div>
+                </div>
+                <div class="activity-time thai-text">10 นาทีที่แล้ว</div>
+              </div>
+              
+              <div class="activity-item">
+                <div class="activity-left">
+                  <div class="activity-icon password">
+                    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                      <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                  </div>
+                  <div class="activity-details">
+                    <div class="activity-title thai-text">เปลี่ยนรหัสผ่าน</div>
+                    <div class="activity-desc thai-text">ความปลอดภัยอัปเดต</div>
+                  </div>
+                </div>
+                <div class="activity-time thai-text">2 วันก่อน</div>
+              </div>
+              
+              <div class="activity-item">
+                <div class="activity-left">
+                  <div class="activity-icon update">
+                    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                  </div>
+                  <div class="activity-details">
+                    <div class="activity-title thai-text">อัปเดตโปรไฟล์</div>
+                    <div class="activity-desc thai-text">แก้ไขข้อมูลสังกัด</div>
+                  </div>
+                </div>
+                <div class="activity-time thai-text">5 วันก่อน</div>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-block thai-text">ดูทั้งหมด</button>
+          </div>
+          
+        </div>
+        
+        <!-- Right Column -->
+        <div class="account-right">
+          
+          <!-- Details Card -->
+          <div class="account-card">
+            <div class="account-card-header thai-text">ข้อมูลรายละเอียด</div>
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="thai-text">ชื่อ</label>
+                <input type="text" value="TestClub" readonly>
+              </div>
+              <div class="form-group">
+                <label class="thai-text">นามสกุล</label>
+                <input type="text" value="TestClub" readonly>
+              </div>
+              <div class="form-group">
+                <label class="thai-text">รหัสนิสิต</label>
+                <input type="text" value="6830300000" readonly>
+              </div>
+              <div class="form-group">
+                <label class="thai-text">อีเมล</label>
+                <input type="email" value="test@compaxtech.com" readonly>
+              </div>
+              <div class="form-group">
+                <label class="thai-text">เบอร์โทร</label>
+                <input type="text" value="000-000-0000" readonly>
+              </div>
+              <div class="form-group">
+                <label class="thai-text">ตำแหน่ง</label>
+                <input type="text" value="Admin" readonly>
+              </div>
+              <div class="form-group">
+                <label class="thai-text">สังกัด</label>
+                <input type="text" value="CompaX" readonly>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Security Card -->
+          <div class="account-card">
+            <div class="account-card-header thai-text">
+              <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+              การตั้งค่าความปลอดภัย
+            </div>
+            
+            <div class="security-row">
+              <div class="security-input-wrapper">
+                <label class="thai-text">รหัสผ่าน (PASSWORD)</label>
+                <div class="security-input-container">
+                  <input type="password" value="******************" readonly>
+                  <div class="eye-icon">
+                    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                      <line x1="1" y1="1" x2="23" y2="23"></line>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a href="account-change_pass.html" class="btn-change-pass thai-text">
+                <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
+                </svg>
+                เปลี่ยนรหัสผ่าน
+              </a>
+            </div>
+            <p class="security-helper thai-text">แนะนำให้เปลี่ยนรหัสผ่านทุกๆ 90 วัน เพื่อความปลอดภัยสูงสุดของบัญชีผู้ใช้</p>
+          </div>
+          
+        </div>
+        
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>

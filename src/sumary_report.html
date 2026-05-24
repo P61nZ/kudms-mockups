@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KUDMS - Summary Report</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/sidebar.css">
+  <link rel="stylesheet" href="./css/sumary_report.css">
+</head>
+<body>
+
+  <!-- Sidebar Component -->
+  <!-- Assuming sidebar is hidden or part of the layout, but kept for consistency with KUDMS -->
+  <kudms-sidebar active-item="report"></kudms-sidebar>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    
+    <div class="content-wrapper">
+      
+      <!-- Page Header & Filters -->
+      <div class="page-header">
+        <div class="header-left">
+          <h1 class="page-title thai-text">รายงานผลงบประมาณ</h1>
+          <p class="page-subtitle">Fiscal Year 2024 Summary</p>
+        </div>
+        
+        <div class="header-right">
+          <select class="filter-select thai-text">
+            <option>รายไตรมาส</option>
+          </select>
+          <select class="filter-select thai-text">
+            <option>ทุกหน่วยงาน</option>
+          </select>
+          <select class="filter-select">
+            <option>2024</option>
+          </select>
+          
+          <button class="btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Export PDF
+          </button>
+          <button class="btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Export Excel
+          </button>
+        </div>
+      </div>
+
+      <!-- KPI Summary Cards -->
+      <div class="kpi-grid">
+        
+        <!-- Card 1 -->
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <div class="kpi-title thai-text">งบประมาณทั้งหมด<br>(Total Budget)</div>
+            <div class="kpi-icon icon-bank">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9h22L12 3zm-9 8h2v8H3v-8zm4 0h2v8H7v-8zm4 0h2v8h-2v-8zm4 0h2v8h-2v-8zm4 0h2v8h-2v-8zM1 21h22v2H1v-2z"/></svg>
+            </div>
+          </div>
+          <div class="kpi-value-row">
+            <div class="kpi-value">25,000,000</div>
+            <div class="kpi-unit">THB</div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <div class="kpi-title thai-text">เบิกจ่ายแล้ว<br>(Total Spent)</div>
+            <div class="kpi-icon icon-cart">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+            </div>
+          </div>
+          <div class="kpi-value-row">
+            <div class="kpi-value">15,250,000</div>
+            <div class="kpi-unit">THB</div>
+            <div class="kpi-badge">61%</div>
+          </div>
+          <div class="kpi-progress-bar" style="width: 61%;"></div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <div class="kpi-title thai-text">คงเหลือ<br>(Remaining Balance)</div>
+            <div class="kpi-icon icon-piggy">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 14h-3v2h3v-2zm3-4c0-1.1-.9-2-2-2h-1V6c0-1.1-.9-2-2-2H8C6.9 4 6 4.9 6 6v2H5c-1.1 0-2 .9-2 2v2c0 1.1.9 2 2 2h1v4h12v-4h1c1.1 0 2-.9 2-2v-2zm-6.5-3c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM17 19H8v-2h9v2z"/></svg>
+            </div>
+          </div>
+          <div class="kpi-value-row">
+            <div class="kpi-value">9,750,000</div>
+            <div class="kpi-unit">THB</div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <div class="kpi-title thai-text">รออนุมัติ<br>(Pending Approval)</div>
+            <div class="kpi-icon icon-clock">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm4 11h-4V8h-2v7h6v-1z"/></svg>
+            </div>
+          </div>
+          <div class="kpi-value-row">
+            <div class="kpi-value">1,200,000</div>
+            <div class="kpi-unit">THB</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Charts Area -->
+      <div class="charts-grid">
+        
+        <!-- Left Chart -->
+        <div class="chart-card">
+          <div class="chart-header">
+            <h3 class="chart-title">Budget vs Actual by Department</h3>
+            <a href="#" class="view-all-link">
+              View All Departments
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+          
+          <div class="bar-chart-container">
+            <div class="chart-grid-lines">
+              <div class="grid-line"><span class="grid-label">10M</span></div>
+              <div class="grid-line"><span class="grid-label">7.5M</span></div>
+              <div class="grid-line"><span class="grid-label">5M</span></div>
+              <div class="grid-line"><span class="grid-label">2.5M</span></div>
+              <div class="grid-line" style="border-bottom: 2px solid #E2E8F0;"><span class="grid-label">0</span></div>
+              
+              <div class="bar-area">
+                <!-- Science -->
+                <div class="bar-group">
+                  <div class="bar bar-light" style="height: 75%;"></div>
+                  <div class="bar bar-dark" style="height: 60%;"></div>
+                  <div class="bar-group-label">Science</div>
+                </div>
+                <!-- Eng -->
+                <div class="bar-group">
+                  <div class="bar bar-light" style="height: 90%;"></div>
+                  <div class="bar bar-dark" style="height: 35%;"></div>
+                  <div class="bar-group-label">Eng</div>
+                </div>
+                <!-- Agri -->
+                <div class="bar-group">
+                  <div class="bar bar-light" style="height: 55%;"></div>
+                  <div class="bar bar-dark" style="height: 50%;"></div>
+                  <div class="bar-group-label">Agri</div>
+                </div>
+                <!-- Arts -->
+                <div class="bar-group">
+                  <div class="bar bar-light" style="height: 40%;"></div>
+                  <div class="bar bar-dark" style="height: 15%;"></div>
+                  <div class="bar-group-label">Arts</div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="chart-legend">
+              <div class="legend-item">
+                <div class="legend-color" style="background: #DBEAFE;"></div>
+                <span>Allocated Budget</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-color" style="background: #0F766E;"></div>
+                <span>Actual Spent</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Chart -->
+        <div class="chart-card">
+          <div class="chart-header">
+            <h3 class="chart-title">Expenditure by Category</h3>
+          </div>
+          
+          <div class="donut-container">
+            <div class="donut-chart">
+              <div class="donut-inner">
+                <div class="donut-value">90%</div>
+                <div class="donut-label">Completion Rate</div>
+              </div>
+            </div>
+            
+            <div class="donut-legend-list">
+              <div class="donut-legend-item">
+                <div class="donut-legend-name">
+                  <div class="donut-legend-dot" style="background: #0F766E;"></div>
+                  Equipment (45%)
+                </div>
+                <div class="donut-legend-value">6.8M</div>
+              </div>
+              <div class="donut-legend-item">
+                <div class="donut-legend-name">
+                  <div class="donut-legend-dot" style="background: #059669;"></div>
+                  Research (30%)
+                </div>
+                <div class="donut-legend-value">4.5M</div>
+              </div>
+              <div class="donut-legend-item">
+                <div class="donut-legend-name">
+                  <div class="donut-legend-dot" style="background: #F59E0B;"></div>
+                  Personnel (25%)
+                </div>
+                <div class="donut-legend-value">3.9M</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Detailed Table Area -->
+      <div class="table-card">
+        
+        <div class="table-header">
+          <h3 class="table-title thai-text">รายการเบิกจ่ายล่าสุด</h3>
+          <a href="#" class="view-all-link">
+            View All
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th class="thai-text">วันที่ (DATE)</th>
+              <th class="thai-text">เลขที่เอกสาร (DOC ID)</th>
+              <th class="thai-text">โครงการ (PROJECT)</th>
+              <th class="thai-text">หน่วยงาน (DEPARTMENT)</th>
+              <th class="thai-text">หมวดหมู่ (CATEGORY)</th>
+              <th class="thai-text">จำนวนเงิน (AMOUNT)</th>
+              <th class="thai-text">สถานะ (STATUS)</th>
+              <th class="thai-text">ดูเอกสาร</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <!-- Row 1 -->
+            <tr>
+              <td>24 Oct 2024</td>
+              <td class="doc-id">EXP-24-1042</td>
+              <td>
+                <div class="project-name">AI Lab Equipment...</div>
+                <div class="project-desc">Upgrade Phase 2</div>
+              </td>
+              <td>Science</td>
+              <td>Equipment</td>
+              <td class="amount">450,000.00</td>
+              <td>
+                <div class="status-badge status-complete">
+                  <div class="status-dot"></div>
+                  Complete
+                </div>
+              </td>
+              <td>
+                <a href="#" class="action-link thai-text">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                  ดูเอกสาร
+                </a>
+              </td>
+            </tr>
+
+            <!-- Row 2 -->
+            <tr>
+              <td>24 Oct 2024</td>
+              <td class="doc-id">EXP-24-1042</td>
+              <td>
+                <div class="project-name">AI Lab Equipment...</div>
+                <div class="project-desc">Upgrade Phase 2</div>
+              </td>
+              <td>Science</td>
+              <td>Equipment</td>
+              <td class="amount">450,000.00</td>
+              <td>
+                <div class="status-badge status-processing">
+                  <div class="status-dot"></div>
+                  Processing
+                </div>
+              </td>
+              <td>
+                <a href="#" class="action-link thai-text">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                  ดูเอกสาร
+                </a>
+              </td>
+            </tr>
+
+            <!-- Row 3 -->
+            <tr>
+              <td>24 Oct 2024</td>
+              <td class="doc-id">EXP-24-1042</td>
+              <td>
+                <div class="project-name">AI Lab Equipment...</div>
+                <div class="project-desc">Upgrade Phase 2</div>
+              </td>
+              <td>Science</td>
+              <td>Equipment</td>
+              <td class="amount">450,000.00</td>
+              <td>
+                <div class="status-badge status-complete">
+                  <div class="status-dot"></div>
+                  Complete
+                </div>
+              </td>
+              <td>
+                <a href="#" class="action-link thai-text">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                  ดูเอกสาร
+                </a>
+              </td>
+            </tr>
+
+            <!-- Row 4 -->
+            <tr>
+              <td>24 Oct 2024</td>
+              <td class="doc-id">EXP-24-1042</td>
+              <td>
+                <div class="project-name">AI Lab Equipment...</div>
+                <div class="project-desc">Upgrade Phase 2</div>
+              </td>
+              <td>Science</td>
+              <td>Equipment</td>
+              <td class="amount">450,000.00</td>
+              <td>
+                <div class="status-badge status-complete">
+                  <div class="status-dot"></div>
+                  Complete
+                </div>
+              </td>
+              <td>
+                <a href="#" class="action-link thai-text">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                  ดูเอกสาร
+                </a>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="./js/components/Sidebar.js"></script>
+</body>
+</html>
